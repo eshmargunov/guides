@@ -1,9 +1,10 @@
 **Устанавливаем и настраиваем Python в Linux, получаем доступ к интерпретатору из командной строки.**
 
-**0.	Подготовка**
+**0.	Подготовка.**
 
-Скорее всего python уже установлен, но не самая актуальная версия.
-Открывает терминал *CTRL+ALT+T*
+Скорее всего, python уже установлен, но не самая актуальная версия.
+Открываем терминал, нажав сочетание клавиш
+*CTRL+ALT+T*.
 
 Набираем:
 
@@ -13,7 +14,7 @@
 
 *python3*
 
-Должна появится информация о версии python и приглашение для ввода
+Должна появиться информация о версии python и приглашение для ввода.
 
 ![](https://github.com/AlyonaZh/guides/blob/master/python/pics/linux/python_info.jpg?raw=true)
 
@@ -23,7 +24,7 @@
 
 *sudo apt-get install python3.7*
 
-Запускаем
+Запускаем:
 
 *python3.7*
 
@@ -31,7 +32,7 @@
 
 **1.	Установка Python.**
 
-Заходим на официальный сайт в раздел загрузок [](https://www.python.org/downloads/), далее выбираем последнюю версию
+Заходим на официальный сайт в раздел загрузок [](https://www.python.org/downloads/), далее выбираем последнюю версию.
 
 ![](https://github.com/AlyonaZh/guides/blob/master/python/pics/linux/instalation.jpg?raw=true)
 
@@ -39,7 +40,7 @@
 
 ![](https://github.com/AlyonaZh/guides/blob/master/python/pics/linux/gzipped_source_toolbar.jpg?raw=true)
 
-Извлекаем скачанный архив через GUI или командой в терминале
+Извлекаем скачанный архив через GUI или командой в терминале:
 *tar -zxvf ~/Загрузки/Python-3.7.2.tgz*
 
 Установим зависимости:
@@ -54,16 +55,16 @@
 
 *sudo apt-get install libffi-dev*
 
-Переходим в папку
+Переходим в папку:
 
 *cd ~/Python-3.7.2*
 
-Выполняем
+Выполняем:
 
  *./configure*
 *sudo make altinstall*
 
-**2.	Запускаем интерпретатор из командной строки**
+**2.	Запускаем интерпретатор из командной строки:**
 
 *CTRL — ALT — T*
 
